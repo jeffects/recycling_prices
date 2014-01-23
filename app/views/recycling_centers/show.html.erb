@@ -1,2 +1,8 @@
 <h1><%= @recycling_center.name %></h1>
 <p><%= @recycling_center.street %></p>
+<%# <p><%= @recycling_center.aluminum_price.to_f %1></p> %>
+<h2>Aluminum Price:</h2>
+<% p '======================' %>
+<% p @recycling_center.aluminum_price %></p>
+<% p '======================' %>
+<p><%= "%01.2f" % @recycling_center.aluminum_price %></p>
